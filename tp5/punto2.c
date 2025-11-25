@@ -3,8 +3,8 @@
 #define N 10 
 
 int main(void) {
-    int X[N]; 
-    int Y[N]; 
+    int X[N];
+    int Y[N];
 
     int i;
     int pag, desp, dato;
@@ -19,6 +19,7 @@ int main(void) {
         printf("2) Visualizar paginas\n");
         printf("0) Salir\n");
         printf("Opcion: ");
+
         if (scanf("%d", &opcion) != 1) {
             printf("Entrada invalida.\n");
             int c;
@@ -71,3 +72,5 @@ int main(void) {
     }
     return 0;
 }
+
+
